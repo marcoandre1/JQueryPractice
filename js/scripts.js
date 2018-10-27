@@ -2,6 +2,10 @@ $(document).ready(function() {
     $(".trigger").click(function() {
         $(".overlay").toggle();
     });
+    $(".index-container").load("../txt/index-paragraph.html");
+    $(".about-container").load("../txt/about-paragraph.html");
+    $(".news-container").load("../txt/news-paragraph.html");
+    $(".contact-container").load("../txt/contact-paragraph.html");
 });
 
 /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */

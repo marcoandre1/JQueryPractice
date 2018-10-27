@@ -5,16 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
 
  <div class="topnav" id="myTopnav">
-   <a href="index.html" class="active">Home</a>
+   <a href="index.html">Home</a>
    <a href="news.html">News</a>
    <a href="contact.html">Contact</a>
-   <a href="about.html">About</a>
+   <a href="about.html" class="active">About</a>
    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
      <i class="fa fa-bars"></i>
    </a>
@@ -27,13 +27,15 @@
   </section>
 
   <div style="padding-left:16px">
-      <h2>Responsive Topnav Example</h2>
-      <p>Resize the browser window to see how it works. This is the home page.</p>
+        <h2>Responsive Topnav Example</h2>
+        <p>Resize the browser window to see how it works. This is the about page.</p>
   </div>
 
+  <div class="about-container" style="padding-left:16px"></div>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-  <script src="js/jquery.min.js"></script>
-  <script src="js/scripts.js"></script>
+  <script src="../js/jquery.min.js"></script>
+  <script src="../js/scripts.js"></script>
 
 </body>
 
